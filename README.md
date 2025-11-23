@@ -6,14 +6,14 @@ To execute Windows basic commands and batch scripting
 
 # DESIGN STEPS:
 
-### Step 1:
+#### Step 1:
 
 Navigate to any Windows environment installed on the system or installed inside a virtual environment like virtual box/vmware 
 
-### Step 2:
+#### Step 2:
 
 Write the Windows commands / batch file . Save each script in a file with a .bat extension. Ensure you have the necessary permissions to perform the operations. Adapt paths as needed based on your system configuration.
-### Step 3:
+#### Step 3:
 
 Execute the necessary commands/batch file for the desired output. 
 
@@ -21,55 +21,60 @@ Execute the necessary commands/batch file for the desired output.
 
 
 # WINDOWS COMMANDS:
-## Exercise 1: Basic Directory and File Operations
-Create a directory named "my-folder"
+### Exercise 1: Basic Directory and File Operations
 
-## COMMAND AND OUTPUT
+Create a directory named "my-folder"
+### COMMAND AND OUTPUT
+
+![alt text](<img/1 mkdir.png>)
 
 Remove the directory "my-folder"
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
-
+![alt text](<img/2 rmdir.png>)
 
 Create the file Rose.txt
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
-
+![alt text](<img/3 rose.png>)
 
 Create the file hello.txt using echo and redirection
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
+![alt text](<img/4 hello.png>)
 
 Copy the file hello.txt into the file hello1.txt
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
+![alt text](<img/5 hello1.png>)
 
 Remove the file hello1.txt
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
+![alt text](<img/6 remove.png>)
 
 List out the file hello1.txt in the current directory
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
+![alt text](<img/7 list.png>)
+
 
 List out all the associated file extensions 
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
-
+![alt text](<img/8 list.png>)
 
 Compare the file hello.txt and rose.txt
+### COMMAND AND OUTPUT
 
-## COMMAND AND OUTPUT
+![alt text](<img/9 rose.png>)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
 
+### OUTPUT
 
-
-
-
-## OUTPUT
-
+![alt text](<img/10 bat.png>)
 
 
 Create a batch file  on the desktop that checks whether a user-input number is odd or not. The script should:
@@ -80,21 +85,16 @@ Ask the user if they want to check another number.
 Repeat the process if the user enters Y, and exit with a thank-you message if the user enters N.
 Handle invalid inputs for the continuation prompt (Y/N) gracefully.
 
+### OUTPUT
 
-
-## OUTPUT
-
-
+![alt text](<img/11 bat.png>)
 
 
 Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1 to 5) and displays each number with the label Number:. The output should pause at the end.
 
+### OUTPUT
 
-
-
-## OUTPUT
-
-
+![alt text](<img/12 bat.png>)
 
 
 Write a batch script to check whether a file named sample.txt exists in the current directory. If the file exists, display the message sample.txt exists. Otherwise, display sample.txt does not exist. Pause the script at the end to view the result.
@@ -105,7 +105,9 @@ Make sure the script works for files located in the same directory as the batch 
 Use pause to keep the command window open after displaying the message.
 Expected Output (if the file exists):
 
-## OUTPUT
+### OUTPUT
+
+![alt text](<img/13 bat.png>)
 
 
 Write a batch script that displays a simple menu with three options:
@@ -115,10 +117,10 @@ Exit – Exits the script with a goodbye message
 The script should repeatedly display the menu until the user chooses to exit. Use goto statements to handle menu navigation.
 
 
-## OUTPUT
+### OUTPUT
 
+![alt text](<img/14 bat.png>)
 
 
 # RESULT:
 The commands/batch files are executed successfully.
-
